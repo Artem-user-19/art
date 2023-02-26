@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(blue, cyan);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.wraps{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+
+}
+
+.img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.wrap-1{
+    width: 100%;
+    margin: 20px auto;
+    margin-left: 10px;
+    text-align: center;
+    box-shadow: 0 3px 10px black;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.wrap-1:hover{
+    box-shadow: 0px 3px 20px black;
+    margin-top: 10px;
+}
+
+.t{
+    padding-bottom: 20px;
+}
+
+.img-2{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.wrap-2{
+    width: 100%;
+    margin: 20px auto;
+    margin-right: 1200px;
+    text-align: center;
+    box-shadow: 0 3px 10px black;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.wrap-2:hover{
+    box-shadow: 0px 3px 20px black;
+    margin-top: 10px;
+}
+
+.t-2{
+    padding-bottom: 20px;
+}
+
+.img-3{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.wrap-3{
+    width: 30%;
+    margin: 20px auto;
+    margin-right: 1350px;
+    text-align: center;
+    box-shadow: 0 3px 10px black;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.wrap-3:hover{
+    box-shadow: 0px 3px 20px black;
+    margin-top: 10px;
+}
+
+.t-3{
+    padding-bottom: 20px;
+}
+
+.img-4{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.wrap-4{
+    width: 30%;
+    margin: 10px auto;
+    margin-right: 200px;
+    text-align: center;
+    box-shadow: 0 3px 10px black;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.wrap-4:hover{
+    box-shadow: 0px 3px 20px black;
+    margin-top: 10px;
+}
+
+.t-4{
+    padding-bottom: 20px;
+}
+
+.text{
+    text-align: right;
+    color: white;
+    font-family: monospace;
+    margin-right: 200px;
+    margin-bottom: 600px;
+    font-size: 50px;
+    margin-top: -600px;
+    animation: text 2s;
+}
+
+
+
+@keyframes text {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+
