@@ -171,18 +171,23 @@ body{
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
     .cov{
         border: 3px solid white;
         padding-right: -100px;
         padding-left: 310px;
-        padding-top: 20px;
+        padding-top: 23px;
+        padding-bottom: 3px;
     }
     .cov-2{
         padding-left: 310px;
         border: 3px solid white;
-        margin-right: 210px;
+        margin-right: 230px;
         padding-top: 20px;
+        padding-bottom: 10px;
     }
     .wrap-2{
         margin-left: -80px;
@@ -199,23 +204,66 @@ body{
     }
     .wrap-1{
         margin-left: -620px;
-        margin-top: 50px;
+        margin-top: -10px;
     }
     .icons{
         display: flex;
-        margin-left: 10px;
+        margin-left: -20px;
     }
     .logo{
         text-align: center;
         margin-left: 190px;
+        margin-top: 180px;
+        font-size: 90px;
     }
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {...}
-
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {...}
+@media only screen and (max-width: 992px) {
+    .cov{
+        border: 3px solid white;
+        padding-right: -120px;
+        padding-left: 320px;
+        padding-top: 23px;
+        padding-bottom: 3px;
+    }
+    .cov-2{
+        padding-left: 310px;
+        border: 3px solid white;
+        margin-right: 700px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    .wrap-2{
+        margin-left: -80px;
+        margin-top: -127px;
+
+    }
+    .text-2{
+        margin-left: -290px;
+        font-size: 48px;
+    }
+    .text{
+        margin-left: -300px;
+        font-size: 40px;
+    }
+    .wrap-1{
+        margin-left: -334px;
+        margin-top: 30px;
+        padding-top: 20px;
+    }
+    .icons{
+        display: flex;
+        margin-left: 60px;
+        font-size: 70px;
+    }
+    .logo{
+        text-align: center;
+        margin-left: -50px;
+        margin-top: 180px;
+        font-size: 90px;
+    }
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {...}
